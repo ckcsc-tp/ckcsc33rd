@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>CKCSC成電論壇</title>
+		<meta charset="utf-8" />
+        <link rel="stylesheet" id="stylesheet" type="text/css" href="main.css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script>
+            function setlight(){
+                    document.getElementById("stylesheet").href='light.css';
+                    document.getElementById("ckcsc").src='images/CKCSC33rd(black).png';
+                    document.getElementById("setdark").style.display='inherit';
+                    document.getElementById("setlight").style.display='none';
+
+            }
+            function setdark(){
+                    document.getElementById("stylesheet").href='main.css';
+                    document.getElementById("ckcsc").src='images/CKCSC33rd.png';
+                    document.getElementById("setdark").style.display='none';
+                    document.getElementById("setlight").style.display='inherit';
+
+            }
+        </script>
+	</head>
+    <body>  
+        <div id="header">
+            <h1 class="header">CKCSC成電論壇</h1>
+            <a href="reg/index.html"><li class="header btn">註冊</li></a>
+            <a href="login/index.html"><li class="header btn">登入</li></a>
+            <a href="https://url.ckcsc.net/" target="_blank"><li class="header btnm" style="display: inherit">短網址</li></a>
+            <a href="https://oj.ckcsc.net/" target="_blank"><li class="header btnb">線上解題系統</li></a>
+            <a href="../index.html"><li class="header btns">社網首頁</li></a>
+        </div>
+        <div id="main">
+            <!-- <h1 class="title">公告</h1> -->
+            <a href="post/index.html" class="post">&nbsp;<i class="fa fa-plus"></i>&nbsp;New post!</a>
+            <div id="posts">
+                <div id="block">
+                    <table class="count">
+                        <tr>
+                            <th class="like">0</th>
+                            <th class="ans">0</th>
+                            <th class="view">0</th>
+                        </tr>
+                        <tr>
+                            <td class="liket">Likes</td>
+                            <td class="anst">Answers</td>
+                            <td class="viewt">Views</td>
+                        </tr>
+                    </table>
+                    <h2 class="title">This is the title of this announcement.hahahahahahahahaha</h2>
+                    <p class="hashtag">hashtag</p>
+                    <p class="owner">modified 40 secs ago by <a href="#" class="profile">Nobody</a></p>
+                </div>
+                <div id="block">
+                    <table class="count">
+                        <tr>
+                            <th class="like">0</th>
+                            <th class="ans">0</th>
+                            <th class="view">0</th>
+                        </tr>
+                        <tr>
+                            <td class="liket">Likes</td>
+                            <td class="anst">Answers</td>
+                            <td class="viewt">Views</td>
+                        </tr>
+                    </table>
+                    <h2 class="title">This is the title of this announcement.hahahahahahahahaha</h2>
+                    <p class="hashtag">hashtag</p>
+                    <p class="owner">asked 40 secs ago by <a href="#" class="profile">Nobody</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+                <img id="ckcsc" src="images/CKCSC33rd.png" class="footer">
+                <div id="c">
+                    <a href="https://www.facebook.com/club.ckcsc.info/" target="_blank"><i class="c fa fa-facebook-official"></i></a>
+                    <a href="https://www.instagram.com/ckcsc33rd_diary/" target="_blank"><i class="c fa fa-instagram"></i></a>  
+                    <h5 class="c">CKCSC © 2020<br>designed by TGoC_Charlie<br>All rights reserved</h5>
+                    <a id="setdark" onclick="setdark() " href="#" style="display: none">dark mode</a>
+                    <a id="setlight" onclick="setlight()" href="#">light mode</a>
+                </div>
+        </div>
+    </body>
+</html>
