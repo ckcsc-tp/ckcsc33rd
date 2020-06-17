@@ -13,6 +13,10 @@ body{
     background-color: #333333;
 } 
 
+h6{
+	color: rgba(0,0,0,0);
+}
+
 #header {
 	position: fixed;
     top: 0px;
